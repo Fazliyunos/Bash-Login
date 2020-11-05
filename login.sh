@@ -31,8 +31,8 @@ echo -e "\e[1;32m
                 ░██─▀─██░░█▀█▀▀▀▀█░░█░
                 ░███▄███░░▀░▀░░░░░▀▀░░
 \e[0m"
-read -p $'\e[32mInput Username :\e[0m ' user
-read -s -p $'\e[32mInput Password :\e[0m ' pass
+read -p $'\e[32mInput Username :\e[0m ' user fazliyunos
+read -s -p $'\e[32mInput Password :\
 if [[ \$pass == $password && \$user == $username ]]; then
 
 PS1='\033[1;32m
